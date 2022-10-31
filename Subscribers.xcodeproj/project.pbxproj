@@ -11,6 +11,7 @@
 		ECC221AE28FD3AC60023DD07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC221AD28FD3AC60023DD07 /* ContentView.swift */; };
 		ECC221B028FD3AC70023DD07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC221AF28FD3AC70023DD07 /* Assets.xcassets */; };
 		ECC221B328FD3AC70023DD07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECC221B228FD3AC70023DD07 /* Preview Assets.xcassets */; };
+		ECF9541D290FC73200E1DAFE /* GZLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF9541C290FC73200E1DAFE /* GZLog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		ECC221AD28FD3AC60023DD07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ECC221AF28FD3AC70023DD07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECC221B228FD3AC70023DD07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECF9541C290FC73200E1DAFE /* GZLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GZLog.swift; sourceTree = "<group>"; };
+		ECF9541E290FD90D00E1DAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		ECC221AA28FD3AC60023DD07 /* Subscribers */ = {
 			isa = PBXGroup;
 			children = (
+				ECF9541E290FD90D00E1DAFE /* Info.plist */,
+				ECF9541C290FC73200E1DAFE /* GZLog.swift */,
 				ECC221AB28FD3AC60023DD07 /* SubscribersApp.swift */,
 				ECC221AD28FD3AC60023DD07 /* ContentView.swift */,
 				ECC221AF28FD3AC70023DD07 /* Assets.xcassets */,
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECC221AE28FD3AC60023DD07 /* ContentView.swift in Sources */,
+				ECF9541D290FC73200E1DAFE /* GZLog.swift in Sources */,
 				ECC221AC28FD3AC60023DD07 /* SubscribersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +276,7 @@
 				DEVELOPMENT_TEAM = WD3LPJ2STX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Subscribers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -300,6 +307,7 @@
 				DEVELOPMENT_TEAM = WD3LPJ2STX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Subscribers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
